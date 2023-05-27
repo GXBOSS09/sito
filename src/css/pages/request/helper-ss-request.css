@@ -1,0 +1,219 @@
+@import "global.css";
+
+/*Header*/
+#header {
+    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    min-width: 100%;
+    min-height: 800px;
+    height: 80vh;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+#header .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    width: 100%;
+    height: 620px;
+    position: relative;
+}
+
+#header .content .left .ip-copied {
+    color: var(--green-color);
+    background: var(--ip-copied-background);
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 17px;
+    display: none;
+}
+
+#header .content .left .ip-copied.active {
+    display: flex;
+}
+
+#header .content .left .ip-copied.error {
+    background: var(--warning-background);
+    color: var(--red-color);
+}
+
+#header .content .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#header .content .left .server-name {
+    display: flex;
+    flex-direction: column;
+}
+
+#header .content .left .server-name p {
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#header .content .left .server-name h1 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+#header .content .left .server-description {
+    color: var(--description-color);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+#header .content .left .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#header .content .left .buttons .copy-ip {
+    background: var(--copy-ip-button-background);
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: var(--white-color);
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#header .content .left .buttons .copy-ip:hover {
+    opacity: 0.8;
+}
+
+#header .content .left .buttons .how-to-join {
+    background: var(--how-to-join-button-background);
+    border: 2px solid var(--description-color);
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: var(--description-color);
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#header .content .left .buttons .how-to-join:hover {
+    opacity: 0.8;
+}
+
+#header .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#header .content .right .logo-img {
+    max-width: 150px;
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+#header .content .right .stats {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background: var(--stats-background);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#header .content .right .stats .stat {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .content .right .stats .stat .icon {
+    border-radius: 5px;
+    background: var(--stat-icon-background-2);
+    padding: 10px;
+    transition: .2s ease-in-out;
+}
+
+#header .content .right .stats .stat .icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background: var(--main-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+#header .content .right .stats .stat:hover .icon {
+    transform: scale(1.1);
+}
+
+#header .content .right .stats .stat .texts {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header .content .right .stats .stat .texts h5 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#header .content .right .stats .stat .texts p {
+    color: var(--description-color);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#header .content .right .stats .stat .texts p span {
+    color: var(--green-color);
+}
+
+
+/*Animations*/
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+/*Responsive*/
+/*Header*/
+    #header .content .left {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
+    }
