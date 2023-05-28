@@ -1,0 +1,24 @@
+@import "global.css";
+
+#header {
+    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    min-width: 100%;
+    min-height: 400px;
+    height: 85vh;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.server-description {
+    color: var(--description-color);
+    font-size: 18px;
+    font-weight: 400px;
+    max-width: 890px;
+    line-height: 1.6;
+    margin-left: 50px;
+}

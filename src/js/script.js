@@ -1,16 +1,9 @@
-/*
-Configuration
-------------------------
-If something doesn't work please contact me on discord (Astronawta#0012).
-*/
-
-
 
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "FLAMEMC", /*Server name*/
-        serverIp: "flamemc.falix.me", /*Server IP*/
+        serverName: "Example", /*Server name*/
+        serverIp: "play.knightlegion.eu", /*Server IP*/
         discordServerID: "1101003701088432158" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
@@ -20,19 +13,6 @@ const config = {
         instagram: "https://www.instagram.com/hypixelofficial"
     },
 
-    /*Admin-Team
-    ------------
-    There are 4 groups (Leaders, Developers, Helpers, Builders)
-    If you want to add new member to group, you must add to a specific group name and rank:
-    All skins for original players are generate automaticaly. If you want to add skins to warez players, yout must add url for skin to skinUrlOrPathToFile
-        {
-            inGameName: "Astronavta", <--- In-Game name
-            rank: "Owner", <-- rank
-            skinUrlOrFileName: "" <-- url or file path for skin image for warez players (if you have original minecraft leave it be empty)
-        }
-
-    If you want to change skin type replace userSKinTypeInAdminTeam with something you want from array in comments
-    */
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
     adminTeamPage: {
         leaders: [
@@ -92,36 +72,7 @@ const config = {
             },
         ],
     },
-
-    /*
-    Contact form
-    ------------
-    To activate, you need to send the first email via the contact form and confirm it in the email.
-    Emails are sent via https://formsubmit.co/
-    */
-    contactPage: {
-        email: "astronavta@example.com"
-    }
 }
-
-/*If you want to change website color go to /css/global.css and in :root {} is a color pallete (don't change names of variables, change only values)*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*If you want everything to work as it should and you don't understand what is written here, don't touch it :D*/
 
 
 /*Mobile navbar (open, close)*/
@@ -183,7 +134,7 @@ const getDiscordOnlineUsers = async () => {
 
 const getMinecraftOnlinePlayer = async () => {
     try {
-        const serverIp = config.serverInfo.serverIp;
+        const   serverIp = config.serverInfo.serverIp;
 
         const apiUrl = `https://api.mcsrvstat.us/2/${serverIp}`;
         let response = await fetch(apiUrl);
