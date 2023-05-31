@@ -1,4 +1,4 @@
-const API_KEY = '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'
+const API_KEY = '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'
 
 const searchBtn = document.getElementById('searchBtn');
 searchBtn.addEventListener('click', fetchImages);
