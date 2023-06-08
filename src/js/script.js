@@ -4,13 +4,13 @@ const config = {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Example", /*Server name*/
         serverIp: "play.knightlegion.eu", /*Server IP*/
-        discordServerID: "1101003701088432158" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
+        discordServerID: "" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
     socialLinks: {
-        discordInvitationLink: "https://discord.gg/mE3BBZF8AE",
+        discordInvitationLink: "comingsoon.html",
         tiktok: "comingsoon.html",
-        instagram: "https://www.instagram.com/hypixelofficial"
+        instagram: "comingsoon.html"
     },
 
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
@@ -20,26 +20,27 @@ const config = {
                 inGameName: "MrTanxy_",
                 rank: "Owner",
                 skinUrlOrPathToFile: ""
+
             },
             {
-                inGameName: "xmathee",
+                inGameName: "Bla",
                 rank: "Owner",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Andr3x_",
+                inGameName: "Bla",
                 rank: "Manager",
                 skinUrlOrPathToFile: ""
             }
         ],
         developers: [
             {
-                inGameName: "Larzolo",
+                inGameName: "Bla",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "GabrieleProUNO",
+                inGameName: "Bla",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             }
