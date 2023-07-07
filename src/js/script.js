@@ -3,7 +3,7 @@ const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Example", /*Server name*/
-        serverIp: "play.knightlegion.eu", /*Server IP*/
+        serverIp: "Example", /*Server IP*/
         discordServerID: "" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
