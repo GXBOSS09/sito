@@ -1,0 +1,4 @@
+
+            <div class="im">
+                <a class="age" href="image.html">Image generator</a>
+            </div>

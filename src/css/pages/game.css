@@ -44,20 +44,6 @@
     display: flex;
 }
 
-.pack {
-    background-color: rgb(255, 255, 0);
-    margin-left: 50px;
-    width: 150px;
-    height: 35px;
-    border-radius: 30px;
-    margin-top: 2px;
-}
-
-.man {
-    color: rgb(163, 21, 21);
-    margin-left: 20px;
-    text-decoration: none;
-}
 
 .im {
     background-color: #00A67E ;
@@ -78,8 +64,8 @@
 .pack {
     background-color: rgb(255, 255, 0);
     margin-left: 50px;
-    width: 150px;
-    height: 35px;
+    width: 170px;
+    height: 170px;
     border-radius: 30px;
     margin-top: 2px;
 }
@@ -88,5 +74,13 @@
     color: rgb(5, 5, 5);
     margin-left: 20px;
     text-decoration: none;
-    
+    margin-top: 5px;
+}
+
+/*img*/
+
+.pack-im0g {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
