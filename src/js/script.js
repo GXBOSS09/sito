@@ -23,51 +23,51 @@ const config = {
 
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Owner",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Manager",
                 skinUrlOrPathToFile: ""
             }
         ],
         developers: [
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             }
         ],
         helpers: [
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Moderator",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Helper++",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Helper+",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Helper+",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Bla",
+                inGameName: "Example",
                 rank: "Helper",
                 skinUrlOrPathToFile: ""
             },
