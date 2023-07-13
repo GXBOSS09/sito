@@ -1,0 +1,86 @@
+@import "global.css";
+
+#header {
+    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    min-width: 100%;
+    min-height: 400px;
+    height: 85vh;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.server-description {
+    color: var(--description-color);
+    font-size: 18px;
+    font-weight: 400px;
+    max-width: 890px;
+    line-height: 1.6;
+    margin-left: 50px;
+    
+}
+
+.description {
+    color: gray;
+    max-width: 900px;
+    line-height: 1.6;
+    margin-left: 50px;
+    margin-top: 7px;
+    display: flex;
+}
+
+.test {
+    background-color: rgb(57, 55, 58);
+    font-size: 18px;
+    font-weight: 400px;
+    margin-left: 60px;
+    border-radius: 20px;
+    width: 750px;
+    height: 100px;
+    display: flex;
+}
+
+
+.im {
+    background-color: #00A67E ;
+    margin-left: 50px;
+    width: 160px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 2px;
+}
+
+.age {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+.pack {
+    background-color: rgb(255, 255, 0);
+    margin-left: 50px;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    margin-top: 2px;
+}
+
+.man {
+    color: rgb(5, 5, 5);
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/*img*/
+
+.pack-im0g {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
