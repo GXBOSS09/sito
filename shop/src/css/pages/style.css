@@ -1,0 +1,121 @@
+@import "global.css";
+
+/*Header*/
+#header {
+    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    min-width: 100%;
+    min-height: 400px;
+    height: 30vh;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+input[type="text"] {
+  padding: 16px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+/* spaeter den onhover effekt, ein bisschen alles quasi selbst programmieren */
+input[type="text"]:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 2px;
+  margin-left: 8px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  
+}
+
+#searchBtnIcon {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#imageGrid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  justify-content: center;
+}
+
+.image-card {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-card img.loaded {
+  opacity: 1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  display: none;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  #imageGrid {
+    width: 100%;
+    justify-content: center;
+    flex-flow: column;
+  }
+
+  .image-card {
+    max-width: 100%;
+  }
+
+}
+  

@@ -1,0 +1,48 @@
+@import "global.css";
+
+#header {
+    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    min-width: 100%;
+    min-height: 400px;
+    height: 85vh;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flexbox;
+    font-size: 18px;
+    font-weight: 400px;
+    max-width: 1000px;
+    line-height: 1.6;
+    margin-left: 400px;
+}
+
+#pacman {
+    display: flex;
+    height: 470px;
+    width: 382px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#shim {
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    visibility: hidden
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+}
+p {
+    text-decoration: none;
+    color: #0000FF;
+}
