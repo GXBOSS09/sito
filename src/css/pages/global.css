@@ -52,7 +52,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 150px;
-  background: var(--background-color);
+  background: #24272b;
   transition: 0.3s ease-in-out;
 }
 
