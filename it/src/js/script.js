@@ -342,3 +342,11 @@ function myFunctionhelp() {
     var popup = document.getElementById("myPopuphelp");
     popup.classList.toggle("show");
 }
+
+
+
+
+function myFunctionhel() {
+    var popup = document.getElementById("myPopuphel");
+    popup.classList.toggle("show");
+}
