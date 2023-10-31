@@ -290,40 +290,40 @@ section:not(#header) .content {
 
      /* The actual popup */
      .popup-helper .popuptexthelp {
-        visibility: hidden;
-        background-color: #2c333e;
-        color: #fff;
-        text-align: left;
-        border-radius: 7px;
-        padding: 15px;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        margin-bottom: -150%;
-        margin-left: -120px;
-        font-size: 20px;
-        text-align: center;
-        width: 170px;
+      visibility: hidden;
+      background-color: #2c333e;
+      color: #fff;
+      text-align: left;
+      border-radius: 7px;
+      padding: 15px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      margin-bottom: -150%;
+      margin-left: -120px;
+      font-size: 20px;
+      text-align: center;
+      width: 170px;
     }
 
         /* Popup arrow */
         .popup-helper .popuptexthelp::after {
-            content: "";
-            position: absolute;
-            top: -18%;
-            left: 30%;
-            transform: rotate(180deg);
-            margin-left: 20px;
-            border-width: 7px;
-            border-style: solid;
-            border-color: #2c333e transparent transparent transparent;
+          content: "";
+          position: absolute;
+          top: -18%;
+          left: 30%;
+          transform: rotate(180deg);
+          margin-left: 20px;
+          border-width: 7px;
+          border-style: solid;
+          border-color: #2c333e transparent transparent transparent;
         }
 
     /* Toggle this class - hide and show the popup */
     .popup-helper .show {
-        visibility: visible;
-        -webkit-animation: fadeIn 1s;
-        animation: fadeIn 1s;
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
     }
 
 .img-flag{
@@ -331,3 +331,23 @@ section:not(#header) .content {
     margin-right: 3px;
 }
 
+@media screen and (max-width: 867px) {
+
+  .popup-helper .popuptexthelp {
+    visibility: hidden;
+    background-color: #2c333e;
+    color: #fff;
+    text-align: left;
+    border-radius: 7px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    margin-bottom: -20%;
+    margin-left: -120px;
+    font-size: 20px;
+    text-align: center;
+    width: 170px;
+  }
+
+}

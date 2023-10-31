@@ -1,13 +1,13 @@
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "Example", /*Server name*/
-        serverIp: "Example", /*Server IP*/
-        discordServerID: "" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
+        serverName: "Hylander Network", /*Server name*/
+        serverIp: "167.86.106.158", /*Server IP*/
+        discordServerID: "1167184482034528378" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
     socialLinks: {
-        discordInvitationLink: "comingsoon.html",
+        discordInvitationLink: "https://dsc.gg/hylander",
         tiktok: "comingsoon.html",
         instagram: "https://www.instagram.com/it.giogio/"
     },
@@ -22,12 +22,12 @@ const config = {
 
             },
             {
-                inGameName: "Example",
+                inGameName: "Alpha007",
                 rank: "Owner",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Example",
+                inGameName: "manuSUS",
                 rank: "Manager",
                 skinUrlOrPathToFile: ""
             }

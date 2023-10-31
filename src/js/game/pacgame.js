@@ -824,9 +824,9 @@ var NONE = 4,
             }
 
             function keyDown(e) {
-                if (e.keyCode === KEY.N) {
+                if (e.keyCode === KEY.S) {
                     startNewGame();
-                } else if (e.keyCode === KEY.S) {
+                } else if (e.keyCode === KEY.N) {
                     audio.disableSound();
                     localStorage["soundDisabled"] = !soundDisabled();
                 } else if (e.keyCode === KEY.P && state === PAUSE) {
@@ -959,7 +959,7 @@ var NONE = 4,
                 } else if (state === WAITING && stateChanged) {
                     stateChanged = false;
                     map.draw(ctx);
-                    dialog("Press N to start a New game");
+                    dialog("Press S to start a New game");
                 } else if (state === EATEN_PAUSE &&
                     (tick - timerStart) > (Pacman.FPS / 3)) {
                     map.draw(ctx);
@@ -1072,7 +1072,7 @@ var NONE = 4,
 
             function loaded() {
 
-                dialog("Press N to Start");
+                dialog("Press S to Start");
 
                 document.addEventListener("keydown", keyDown, true);
                 document.addEventListener("keypress", keyPress, true);
