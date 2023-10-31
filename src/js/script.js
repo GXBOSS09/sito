@@ -16,19 +16,19 @@ const config = {
     adminTeamPage: {
         leaders: [
             {
+                inGameName: "Alpha007",
+                rank: "Seo",
+                skinUrlOrPathToFile: ""
+            },
+            {
                 inGameName: "MrTanxy_",
                 rank: "Owner",
                 skinUrlOrPathToFile: ""
 
             },
             {
-                inGameName: "Alpha007",
-                rank: "Owner",
-                skinUrlOrPathToFile: ""
-            },
-            {
                 inGameName: "manuSUS",
-                rank: "Manager",
+                rank: "Owner",
                 skinUrlOrPathToFile: ""
             }
         ],
