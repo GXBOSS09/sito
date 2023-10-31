@@ -1,6 +1,6 @@
 const config = {
     serverInfo: {
-        serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
+        serverLogoImageFileName: "logo.jpg", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Hylander Network", /*Server name*/
         serverIp: "167.86.106.158", /*Server IP*/
         discordServerID: "1167184482034528378" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
