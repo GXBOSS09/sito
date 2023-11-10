@@ -34,12 +34,12 @@ const config = {
         ],
         developers: [
             {
-                inGameName: "Example",
+                inGameName: "MrTanxy_",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             },
             {
-                inGameName: "Example",
+                inGameName: "manuSUS",
                 rank: "Developer",
                 skinUrlOrPathToFile: ""
             }
